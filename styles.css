@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'ParkLaneNF';
+  src: url('/roaring20s-evite/assets/parklane font/ParkLaneNF.otf') format('otf'),
+       url('/roaring20s-evite/assets/parklane font/ParkLaneNF.ttf') format('ttf');
+      /* Add more src declarations for different formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media all and (min-width: 800px) {
+  body {
+    padding: 100px;
+  }
+}
+
+html {
+  background: url('https://i.ibb.co/PFbM7bS/roaring20s-bkgrnd.jpg') no-repeat center center fixed;
+    /* Set the background size to cover the entire viewport */
+  background-size: cover;
+
+  /* Ensure the background image is centered and doesn't repeat */
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Set additional styles for better compatibility */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  /* Set the z-index and overflow properties */
+  z-index: 0;
+  overflow: hidden;
+
+  /* Ensure box-sizing includes padding and border in the element's total width and height */
+  box-sizing: border-box;
+
+  background-color: black;
+  color: aliceblue;
+}
+
+header {
+  text-align: center;
+}
+
+.container {
+   padding: 25px;
+   font-size: 18px;
+   text-align: center;
+} 
+
+.data {
+    padding: 50px;
+    text-align: left;
+}
+
+legend {
+  ;
+}
+
+
